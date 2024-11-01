@@ -1,0 +1,16 @@
+{
+    "developer" : true,
+    "endpoints": {
+        "auth": "https://dev.shipquik.es/api/b2c/auth",
+        "createShipment": "https://dev.shipquik.es/api/create-shipment",
+        "pickupDate": "https://dev.shipquik.es/api/shipments/pickup-date",
+        "getOrdersPaid": "https://dev.shipquik.es/api/v2/getOrdersPaid/",
+        "getSupplierBaseUri": "https://dev.shipquik.es/api/v2/suppliers",
+        "getSuppliersConfiguration": "https://dev.shipquik.es/api/v2/suppliers/configuration",
+        "getSuppliersPickupInfo": "https://dev.shipquik.es/api/v2/suppliers/pickup-info",
+        "createStripeIntent": "https://dev.shipquik.es/api/stripe/create-payment-intent",
+        "shipmentLogs": "https://dev.shipquik.es/api/logs/shipments/"
+    },
+    "stkey": "pk_test_51Kb6AALCWQ4a9RCpTUGtKWrpXQTxHAzsP5BUTCFNY2AK8oGQgJ3X5nvKTCaN1HkeZv364e98GiJt2fq3ygbGB6Yi00K6MwM3if",
+    "servicesList": []
+}

@@ -1,0 +1,12 @@
+{
+    "name": "shipquik/classes",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "ShipQuik\\": "src/"
+        }
+    },
+    "require": {},
+    "author": "Woocommerce",
+    "license": "OSL-3.0"
+}

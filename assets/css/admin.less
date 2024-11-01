@@ -1,0 +1,658 @@
+.notice.ship-quik-activation-notice {
+  margin-top: 30px;
+  padding: 15px 20px 10px 20px !important;
+  font-size: 15px;
+  color: black;
+
+  .button {
+    margin-left: 20px;
+  }
+
+  a {
+    margin-top: -6px;
+  }
+}
+
+#setting-error-ship_quik_message {
+  color: black;
+  background-color: #5cf87e;
+}
+
+.post-type-shop_order {
+  .ui-dialog-titlebar {
+    padding: 0 1em !important;
+  }
+
+  #ship-quik-dialog-label {
+    width: 100% !important;
+  }
+
+  .button-alert {
+    background-color: rgb(144, 39, 39) !important;
+    color: white !important;
+  }
+
+  .ui-dialog {
+    z-index: 9999 !important;
+    top: 40px !important;
+  }
+
+  .reprint {
+    background: #276724;
+  }
+
+  /* Loader */
+  .shipquik_loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #747474;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    float: left;
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  #wpwrap {
+    background: #f0f0f1 !important;
+  }
+
+  .ui-dialog-titlebar-close:before {
+    font: normal 15px/1 dashicons;
+    line-height: 1;
+    width: 45px;
+    height: 45px;
+  }
+
+  #wpbody-content a {
+    color: #2271b1 !important;
+  }
+
+  #ship_quik_cost {
+    width: 150px;
+  }
+
+  #ship_quik_status {
+    width: 150px;
+  }
+
+  #ship_quik_action {
+    width: 150px;
+  }
+
+  #ship_quik_pickup {
+    width: 250px;
+  }
+
+  .ship-quik-pickdate,
+  .ship-quik-picktime {
+    display: inline-block;
+    padding: 0 10px;
+    max-width: 130px;
+    height: 34px;
+  }
+
+  .ship-quik-pickdate-red,
+  .ship-quik-picktime-red {
+    border-color: red;
+  }
+
+  .ship-quik-repackaging {
+    cursor: pointer;
+    color: rgb(0, 194, 163);
+  }
+
+  .ship-quik-send-order {
+    cursor: pointer;
+    color: rgb(0, 194, 163);
+  }
+
+  .ship-quik-print-label {
+    cursor: pointer;
+    color: rgb(0, 194, 163);
+  }
+
+  .ship-quik-reprint-label {
+    cursor: pointer;
+    color: #9b0000;
+  }
+
+  /* repackagingShipQuikOrderModal */
+
+  #repackagingShipQuikOrderModal {
+    max-width: 100% !important;
+    font-size: 0.8rem;
+    padding-right: 0 !important;
+    overflow: initial !important;
+
+    .modal-content {
+      background-color: #e4e4e4;
+    }
+
+    .btn-primary,
+    .btn-danger {
+      color: #ffffff;
+    }
+
+    .modal-footer h2,
+    .modal-footer h4 {
+      font-size: 1.4rem;
+    }
+
+    .modal-body h3,
+    .modal-body h4 {
+      color: rgb(0, 194, 163);
+    }
+
+    .ship-quik-repackaging-productlist div.header {
+      font-weight: bold;
+      cursor: default;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgb(0, 194, 163);
+      color: rgb(0, 194, 163);
+    }
+
+    .ship-quik-repackaging-productlist {
+      background: white;
+      border-radius: 12px;
+      padding: 15px 15px 0;
+    }
+
+    .ship-quik-repackaging-productlist div.product-image img,
+    .ship-quik-repackaging-packageproductlist div.product-image img {
+      max-width: 100%;
+    }
+
+    .ship-quik-repackaging-productlist div.product,
+    .ship-quik-repackaging-packageproductlist div.product {
+      padding: 10px 0;
+      z-index: 99;
+      line-height: 34px;
+    }
+
+    .ship-quik-repackaging-productlist div.product:last-child {
+      border-radius: 0 0 12px 12px;
+    }
+
+    .ship-quik-repackaging-productlist .product-selected {
+      background: linear-gradient(90deg, rgb(255 255 255) 0%, rgb(255 255 255) 95%, rgba(0, 194, 127, 1) 100%);
+      color: #000000;
+    }
+
+    .ship-quik-repackaging-productlist .product:hover {
+      background-color: #a8a8a8;
+      cursor: move;
+    }
+
+    .package {
+      background: linear-gradient(145deg, rgba(0, 194, 163, 1) 0%, rgba(0, 194, 163, 1) 50%, rgba(0, 194, 127, 1) 100%);
+      min-height: 100px;
+      border-radius: 12px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding: 10px 10px 20px 10px;
+    }
+
+    .package .container-droppable {
+      border: 2px dotted #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .package .container-droppable-withdata {
+      border: none;
+    }
+
+    .ship-quik-highlight {
+      background-color: #363a41;
+    }
+
+    .package .packageproduct-delete {
+      cursor: pointer;
+    }
+
+    select {
+      margin: 0;
+      font-weight: bold;
+      padding-left: 10px;
+      text-transform: capitalize;
+    }
+
+    .package-create {
+      cursor: pointer;
+      background-color: rgb(0, 194, 163);
+      border-radius: 100%;
+      color: white;
+      padding: 5px;
+    }
+
+    .package-selected {
+      background-color: rgb(0, 194, 163) !important;
+      color: white;
+    }
+
+    .package .package-delete {
+      text-align: right;
+      padding: 5px 5px 0 0;
+      cursor: pointer;
+    }
+
+    .package .package-name {
+      padding-left: 20px;
+      float: left;
+      text-transform: capitalize;
+    }
+
+    .package .package-productlist {
+      padding: 0 20px;
+    }
+
+    .modal-footer {
+      padding: 20px 0;
+    }
+
+    .totals {
+      background: rgb(52, 65, 75);
+      border-radius: 12px;
+      font-weight: bold;
+      padding: 30px;
+    }
+
+    .totals h3,
+    .totals h4 {
+      color: rgb(0, 194, 163)
+    }
+
+    .totals h2 {
+      color: white;
+    }
+
+    .totals .recalc-totals {
+      cursor: pointer;
+      font-size: inherit;
+    }
+
+    .shipquik-repackaging-cancel,
+    .shipquik-repackaging-save {
+      width: 100%;
+    }
+  }
+}
+
+
+.woocommerce_page_ship_quik_settings {
+  .ship-quik-activation-notice {
+    display: none;
+  }
+
+  .span-activate {
+    width: 100%;
+    text-align: center;
+
+    .button-activate {
+      width: 100px;
+      padding: 5px 12px !important;
+      background-color: #5cf87e !important;
+    }
+  }
+}
+
+
+//   a {
+//     color: #ffffff !important;
+//   }
+
+//   #ship_quik_settings {
+//     padding: 20px 60px;
+//   }
+
+//   #wpfooter {
+//     display: none;
+//   }
+
+//   .is_required {
+//     margin: 50px 10%;
+//     border: 0.5px solid #ffffff;
+//     border-radius: 20px;
+//     padding: 50px;
+//   }
+
+//   .message_if_requires {
+//     font-size: 16px;
+//     background: #edf0f2;
+//     border-radius: 20px;
+//     padding: 15px 30px;
+//     line-height: 1.5em;
+//     color: black;
+//   }
+
+//   .ship_quick_logo {
+//     margin-bottom: 30px;
+
+//     img {
+//       height: 100px;
+//     }
+//   }
+
+//   .ship_quick_logo_centrado {
+//     text-align: center;
+//   }
+
+//   tr.subsection {
+//     border-top: 1px solid #cdcdcd;
+//   }
+
+//   span.description {
+//     font-size: 15px;
+//     display: block;
+//     margin-top: 10px;
+//     font-style: italic;
+//     color: lightgray;
+//   }
+
+//   h2,
+//   h3 {
+//     color: #ffffff;
+//     font-size: 1.3em;
+//     margin: 1em 0;
+//   }
+
+//   .form-table th,
+//   .form-wrap label {
+//     color: #fff;
+//     font-size: 16px;
+//     text-shadow: none;
+//   }
+
+//   .button-primary {
+//     background: #5cf87e;
+//     border-color: #5cf87e;
+//     color: #33404a;
+//     text-decoration: none;
+//     text-shadow: none;
+//   }
+
+//   input[type="submit"] {
+//     background: #5cf87e45;
+//     border-color: #5CF87E;
+//     color: #fff;
+//     padding: 12px;
+//     text-decoration: none;
+//     text-shadow: none;
+//   }
+
+//   select {
+//     font-size: 14px;
+//     line-height: 2;
+//     color: #33404a;
+//     border-color: #5cf87e;
+//     box-shadow: none;
+//     border-radius: 3px;
+//     padding: 0 24px 0 8px;
+//     min-height: 30px;
+//     max-width: 25rem;
+//     -webkit-appearance: none;
+//     background: #ffffff;
+//     background-size: 16px 16px;
+//     cursor: pointer;
+//     vertical-align: middle;
+//   }
+
+//   .nav-tab-wrapper,
+//   .wrap h2.nav-tab-wrapper,
+//   h1.nav-tab-wrapper {
+//     border-bottom: 0.5px solid #5cf87e;
+//     margin: 0;
+//     padding-top: 9px;
+//     padding-bottom: 0;
+//     line-height: inherit;
+//   }
+
+//   .nav-tab {
+//     border-radius: 10px 10px 0 0;
+//     color: #fff;
+//     float: left;
+//     border-bottom: none;
+//     margin-left: 0.5em;
+//     padding: 5px 10px;
+//     font-size: 14px;
+//     line-height: 1.71428571;
+//     font-weight: 600;
+//     background: #4e6373;
+//     text-decoration: none;
+//     white-space: nowrap;
+//   }
+
+//   .nav-tab-active,
+//   .nav-tab-active:focus,
+//   .nav-tab-active:focus:active,
+//   .nav-tab-active:hover {
+//     border-bottom: 0.5px solid #5cf87e;
+//     border-radius: 10px 10px 0 0;
+//     background: #5cf87e;
+//     color: #33404a;
+//   }
+
+//   textarea,
+//   input[type="text"],
+//   input[type="number"],
+//   input[type='checkbox'] {
+//     background: #5cf87e45;
+//     color: #fff;
+//     border-color: #5cf87e;
+//   }
+
+//   textarea {
+//     background: #5cf87e45;
+//     color: #fff;
+//     border-color: #5cf87e;
+//   }
+
+//   input[type='checkbox']:checked {
+//     margin-top: -4px;
+//     border-color: #5cf87e;
+//     background: #5cf87e;
+//   }
+
+//   input::-webkit-outer-spin-button,
+//   input::-webkit-inner-spin-button {
+//     -webkit-appearance: none;
+//     margin: 0;
+//   }
+
+//   input[type=number] {
+//     -moz-appearance: textfield;
+//   }
+
+//   .settings_section {
+//     float: left;
+//     width: 50%;
+//     border: 1px solid #ffffff;
+//   }
+// }
+
+@media screen and (max-width: 1285px) {
+  .woocommerce_page_ship_quik_settings {
+    .panel {
+      width: 100% !important;
+    }
+    .form-table {
+      th, td {
+        // display: table-cell;
+        vertical-align: top;
+        // width: inherit;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 782px) {
+  .woocommerce_page_ship_quik_settings {
+    .panel {
+      .form-table td {
+        padding: 10px 20px;
+      }
+
+      th {
+        width: 100% !important;
+      }
+
+    table {
+        width: 100% !important;
+      }
+  
+    }
+  }
+}
+
+.woocommerce_page_ship_quik_settings {
+  background-color: #33404a !important;
+  padding: 20px 20px 20px 0px;
+
+  .ship_quick_logo {
+    margin-bottom: 30px;
+
+    img {
+      height: 100px;
+    }
+  }
+
+  #wpfooter {
+    display: none;
+  } 
+
+  .panel-submit {
+    width: 99% !important;
+    padding: 20px 0;
+    text-align: right;
+    margin-top: -1px !important;
+  }
+
+  .panel {
+    color: #fff;
+    background-color: #33404a !important;
+    margin-top: 10px;
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1%;
+    border-radius: 0 !important;
+
+    // padding: 20px;
+    // margin-bottom: 20px;
+    border: 1px solid #dbe6e9;
+
+    a {
+      color: #ffffff;
+    }
+
+    h2 {
+      padding: 10px;
+      font-family: "Open Sans",helvetica,arial,sans-serif;
+      font-size: 16px !important;
+      font-weight: 600;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #00C2A3 !important;
+      border: 1px !important;
+      background: #FFFFFF;
+      margin: 0 !important;
+    }
+
+    h3 {
+      color: #ffffff;
+    }
+
+    th {
+      color: #ffffff;
+      padding-left: 20px;
+      width: 0;
+      font-size: 17px;
+    }
+
+    .button-primary {
+      background: #00C2A3;
+      border-color: #00C2A3;
+      margin-right:  20px;
+    }
+
+    span.description {
+      font-size: 15px;
+      display: block;
+      margin-top: 10px;
+      font-style: italic;
+      color: #00C2A3;
+    }
+
+    #shippingTableRates input {
+      width: 80px;
+    }
+
+    #shippingProductListWhithoutParcelData table {
+      margin: 0 auto;
+    }
+  }
+
+  .rates-header td {
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .rates-product td {
+    border-bottom: 1px solid #ffffff;
+    padding: 10px;
+  }
+
+  .fieldset_0 {
+    width: 97%!important
+}
+  .fieldset_4_4 {
+    width: 99% !important;
+  }
+
+  .activacion {
+    width: 99% !important;
+  }
+
+  .activacion th {
+    width: 200px !important;
+  }
+
+  .activacion input {
+    width: 80% !important;
+  }
+  #activationEmail {
+    width: 80%;
+  }
+
+  .info-activation {
+    width: 99% !important;
+  }
+
+  #shippingTableRates input[type="text"],
+  #shippingPackageList input[type="text"] {
+    width: 100%;
+  }
+}

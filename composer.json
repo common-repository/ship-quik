@@ -1,0 +1,25 @@
+{
+    "name": "ship_quik/ship_quik",
+    "license": "GPL-2.0-or-later",
+    "description": "Ship-Quik Connector",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../../../libs/woocommerce/shipquik",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ramsey/uuid": "^4.2",
+        "shipquik/classes": "@dev"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "type": "woocommerce-plugin",
+    "author": "WooCommerce"
+}

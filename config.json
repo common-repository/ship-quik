@@ -1,0 +1,11 @@
+{
+    "endpoints": {
+        "auth": "https://api.shipquik.es/api/b2c/auth",
+        "getSuppliersConfiguration": "https://api.shipquik.es/api/b2c/suppliers/configuration",
+        "getRates": "https://gateway.shipquik.es/api/rama/v1/quotes/plugins",
+        "createOrder": "https://orders.shipquik.es/api/v1/b2c/orders",
+        "getLabel": "https://orders.shipquik.es/api/v1/b2c/shipment-orders",
+        "oms": "https://ship-quik.com/es/#/dashboard-client"
+    },
+    "servicesList": []
+}

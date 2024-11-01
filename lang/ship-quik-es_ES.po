@@ -1,0 +1,835 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ship-Quik\n"
+"POT-Creation-Date: 2023-07-18 10:42+0200\n"
+"PO-Revision-Date: 2023-07-18 10:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ship-quik.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#. Plugin Name of the plugin/theme
+#: ship-quik.php:45 shipquik/src/WooCommerce/ShipQuik_Settings.php:133
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:134
+#: shipquik/src/WooCommerce/Suppliers/ShipQuik_Shipping_Method.php:34
+msgid "Ship-Quik"
+msgstr "Ship-Quik"
+
+#: ship-quik.php:46
+msgid "Woocommerce"
+msgstr "WooCommerce"
+
+#: ship-quik.php:48
+#, php-format
+msgid ""
+"%1$s requiere %2$s para funcionar correctamente. Por favor  activa %2$s "
+"antes de activar %1$s. Hasta ese momento, Ship-Quik estará desactivado."
+msgstr ""
+"%1$s requiere %2$s para funcionar correctamente. Por favor activa %2$s antes "
+"de activar %1$s. Hasta ese momento, Ship-Quik estará desactivado."
+
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:89
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:90
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:133
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:134
+msgid "by Ship-Quik fast shipping"
+msgstr "por Ship-Quik envío rápido"
+
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:104
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:105
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:125
+#: shipquik/src/Shared/ShipQuik_PricingMode.php:126
+msgid "by Ship-Quik low cost"
+msgstr "por Ship-Quik más barato"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:59
+#, fuzzy
+#| msgid "Ship-Quik configuration"
+msgid "Ship-Quik Pickup Date/Time"
+msgstr "Configuración Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:60
+#, fuzzy
+#| msgid "Ship-Quik"
+msgid "Ship-Quik Cost"
+msgstr "Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:61
+#, fuzzy
+#| msgid "Ship-Quik Order Payment"
+msgid "Ship-Quik Payment"
+msgstr "Pago de pedidos de Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:62
+#, fuzzy
+#| msgid "Ship-Quik configuration"
+msgid "Ship-Quik Action"
+msgstr "Configuración Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:181
+msgid "Ship-Quik Order Payment"
+msgstr "Pago de pedidos de Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:183
+#, fuzzy
+msgid "Ship-Quik Orders Processing"
+msgstr "Procesamiento de pedidos Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:184
+#, fuzzy
+#| msgid "Ship-Quik Order Payment"
+msgid "Ship-Quik Check Orders"
+msgstr "Pago de pedidos de Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:186
+#, fuzzy
+#| msgid "Ship-Quik Order Payment"
+msgid "Ship-Quik Printing Orders"
+msgstr "Pago de pedidos de Ship-Quik"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:406
+msgid "There was a problem with your payment. Retry again."
+msgstr "Hubo un problema con su pago. Vuelva a intentarlo."
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:446
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:448
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:460
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:462
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:474
+#, fuzzy
+msgid "Mañana"
+msgstr "Mañana"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:451
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:453
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:465
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:467
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:475
+#, fuzzy
+msgid "Tarde"
+msgstr "Tarde"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:490
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:282
+msgid "Import"
+msgstr "Importe"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:496
+msgid "Unpaid"
+msgstr "No pagado"
+
+#: shipquik/src/WooCommerce/Admin/ShipQuik_OrdersAdmin.php:496
+msgid "Paid"
+msgstr "Pagado"
+
+#: shipquik/src/WooCommerce/FrontEnd/ShipQuik_CheckOut.php:53
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:447
+#, fuzzy
+msgid "Customer DNI/CIF/NIE"
+msgstr "DNI/CIF DEL CLIENTE"
+
+#: shipquik/src/WooCommerce/FrontEnd/ShipQuik_CheckOut.php:81
+#, php-format
+msgid "via %s"
+msgstr "a través de %s"
+
+#: shipquik/src/WooCommerce/FrontEnd/ShipQuik_CheckOut.php:182
+#, fuzzy
+msgid ""
+"Some carriers require a valid DNI/CIF/NIE for international shipments, enter "
+"it in the selected carrier."
+msgstr ""
+"Algunos transportistas requieren un DNI/CIF/NIE válido para envíos "
+"internacionales, introdúzcalo en el transportista seleccionado."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:248
+msgid "Upload an image"
+msgstr "Subir una imagen"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:248
+msgid "Use image"
+msgstr "Usar imagen"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:248
+msgid "Upload new image"
+msgstr "Subir nueva imagen"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:249
+msgid "Remove image"
+msgstr "Eliminar imagen"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:275
+msgid "¿Are you sure that you want to delete this rate?."
+msgstr "¿Estás seguro de que quieres eliminar esta tarifa?."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:276
+msgid "Add Range"
+msgstr "Añadir rango"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:280
+msgid "From"
+msgstr "Desde"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:281
+msgid "To"
+msgstr "Hasta"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:345
+#, fuzzy
+msgid ""
+"Atención: los datos de embalaje de estos productos no están completamente "
+"informados."
+msgstr ""
+"Atención: los datos de embalaje de estos productos no están completamente "
+"informados."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:349
+#, fuzzy
+msgid "Nombre del producto"
+msgstr "Nombre del producto"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:350
+#, fuzzy
+msgid "Anchura"
+msgstr "Anchura"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:351
+msgid "Altura"
+msgstr "Altura"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:352
+#, fuzzy
+msgid "Profundidad"
+msgstr "Profundidad"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:353
+msgid "Peso"
+msgstr "Peso"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:354
+#, fuzzy
+msgid "Página del producto"
+msgstr "Página del producto"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:369
+msgid "Ver"
+msgstr "Ver"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:375
+#, fuzzy
+msgid "Tienes más productos sin datos, solo hemos mostrado los "
+msgstr "Tienes más productos sin datos, solo hemos mostrado los "
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:385
+#, fuzzy
+msgid "¿Estás seguro que quieres borrar este paquete?."
+msgstr "¿Estás seguro que quieres borrar este paquete?."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:386
+#, fuzzy
+msgid "Añadir Paquete"
+msgstr "Añadir Paquete"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:390
+msgid "Nombre"
+msgstr "Nombre"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:391
+#, fuzzy
+#| msgid "Length (cms)"
+msgid "Largo (cm)"
+msgstr "Longitud (cms)"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:392
+#, fuzzy
+#| msgid "Length (cms)"
+msgid "Ancho (cm)"
+msgstr "Longitud (cms)"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:393
+#, fuzzy
+#| msgid "Width (cms)"
+msgid "Alto (cm)"
+msgstr "Ancho (cms)"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:394
+#, fuzzy
+msgid "Peso (kgr)"
+msgstr "Peso (kgr)"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_AdminAPI.php:395
+#, fuzzy
+msgid "Paquete por defecto"
+msgstr "Paquete por defecto"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:106
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:110
+#, php-format
+msgid "Add New %s"
+msgstr "Añadir nuevo %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:107
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:107
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:108
+#, php-format
+msgid "New %s"
+msgstr "Nuevo %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:109
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:106
+#, php-format
+msgid "All %s"
+msgstr "Todos %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:110
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:108
+#, php-format
+msgid "View %s"
+msgstr "Ver %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:111
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:114
+#, php-format
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:112
+#, php-format
+msgid "No %s Found"
+msgstr "No se ha encontrado %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:113
+#, php-format
+msgid "No %s Found In Trash"
+msgstr "No se encontró %s en la papelera"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:114
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:112
+#, php-format
+msgid "Parent %s"
+msgstr "Superior %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:158
+#, php-format
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr "%1$s actualizado. %2$s Ver %3$s%4$s."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:159
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:160
+msgid "Custom field deleted."
+msgstr "Campo personalizado eliminado."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:161
+#, php-format
+msgid "%1$s updated."
+msgstr "%1$s actualizado."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:162
+#, php-format
+msgid "%1$s restored to revision from %2$s."
+msgstr "%1$s restaurados a revisión de %2$s."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:163
+#, php-format
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr "%1$s publicado. %2$sVer %3$s%4s."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:164
+#, php-format
+msgid "%1$s saved."
+msgstr "%1$s guardado."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:165
+#, php-format
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr "%1$s presentado. %2$s Vista previa de la publicación%3$s%4$s."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:166
+#, php-format
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr "%1$s programados para:%2$s. %3$s Vista previa %4$s%5$s."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:166
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:167
+#, php-format
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr "%1$s proyecto actualizado. %2$s Vista rapida %3$s%4$s."
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:185
+#, php-format
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:186
+#, php-format
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:187
+#, php-format
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:188
+#, php-format
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_PostType.php:189
+#, php-format
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:109
+#, php-format
+msgid "Update %s"
+msgstr "Actualizar %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:111
+#, php-format
+msgid "New %s Name"
+msgstr "Nuevo %s Nombre"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:113
+#, php-format
+msgid "Parent %s:"
+msgstr "Superior %s:"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:115
+#, php-format
+msgid "Popular %s"
+msgstr "Popular %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:116
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separar %s con comas"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:117
+#, php-format
+msgid "Add or remove %s"
+msgstr "Añadir o eliminar %s"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:118
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Elija entre los % s más utilizados"
+
+#: shipquik/src/WooCommerce/Lib/ShipQuik_Taxonomy.php:119
+#, php-format
+msgid "No %s found"
+msgstr "%s no encontrado"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:246
+msgid "Ship-Quik: Licence and activate."
+msgstr "Ship-Quik: Licencia y activación."
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:250
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:710
+msgid "Activate"
+msgstr "Activar"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:295
+msgid "Ship-Quik configuration"
+msgstr "Configuración Ship-Quik"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:297
+msgid "Configuration"
+msgstr "Configuración"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:562
+msgid "Total Payment:"
+msgstr "Pago total:"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:576
+msgid "Labels"
+msgstr "Etiquetas"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:580
+#, fuzzy
+msgid "Select the pickup date for Ship-Quik orders"
+msgstr "Seleccione la fecha de recogida para pedidos de Ship-Quik"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:585
+#, fuzzy
+msgid "Process Ship-Quik orders"
+msgstr "Procesar pedidos de Ship-Quik"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:876
+msgid "Cloning of Ship_Quik is forbidden"
+msgstr "La clonación de Ship_Quik está prohibida"
+
+#: shipquik/src/WooCommerce/ShipQuik_Main.php:890
+msgid "Unserializing instances of Ship_Quik is forbidden"
+msgstr "Está prohibido desserializar instancias de Ship_Quik"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:241
+msgid "Do nothing"
+msgstr "No hacer nada"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:261
+#, fuzzy
+#| msgid "Ship-Quik: Licence and activate."
+msgid "Ship-Quik: License and activation."
+msgstr "Ship-Quik: Licencia y activación."
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:266
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:517
+msgid "Email"
+msgstr "Email"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:267
+#, fuzzy
+msgid "Enter here the email with which you registered with Ship-Quik."
+msgstr ""
+"Ingresa aquí el correo electrónico con el que te registraste en Ship-Quik."
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:275
+#, fuzzy
+msgid "private key"
+msgstr "Clave privada"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:276
+#, fuzzy
+msgid "Enter your private key here."
+msgstr "Ingrese su clave privada aquí."
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:292
+msgid ""
+"This option will allow you to pay for your orders at the end of the month. "
+"By clicking we will receive an email with your request. You will have to "
+"sign the SEPA document and when it is authorized, you can pay at the end of "
+"the month. If you want more information send us an email to "
+msgstr ""
+"Esta opción le permitirá pagar sus pedidos a fin de mes. Al hacer clic, "
+"recibiremos un correo electrónico con su solicitud. Tendrás que firmar el "
+"documento SEPA y cuando esté autorizado, podrás pagar a final de mes. Si "
+"quieres más información envíanos un email a "
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:296
+msgid "Supplier list"
+msgstr "Lista de proveedores"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:302
+msgid "Choose what suppliers to work with"
+msgstr "Elija con qué proveedores trabajar"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:313
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:322
+msgid "Credit Card"
+msgstr "Tarjeta de crédito"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:322
+msgid "End of the month"
+msgstr "Fin de mes"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:330
+msgid "Prices"
+msgstr "Precios"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:335
+msgid "Pricing Mode"
+msgstr "Selección del precio"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:340
+msgid "Fastest Shipment"
+msgstr "Envío más rápido"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:341
+msgid "Cheapest Shipment"
+msgstr "Envío más barato"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:342
+msgid "Customer choose between Fastest or Cheapest"
+msgstr "El cliente elige entre el más rápido o el más barato"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:351
+#, fuzzy
+msgid "Charge import costs to your customers"
+msgstr "Cargue los costos de importación a sus clientes"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:352
+#, fuzzy
+msgid ""
+"Do you want to charge import costs to your customers? If Yes, this cost will "
+"be charged even in free shipments."
+msgstr ""
+"¿Desea cobrar los costos de importación a sus clientes? En caso afirmativo, "
+"este costo se cobrará incluso en envíos gratuitos."
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:356
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:370
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:431
+msgid "Yes"
+msgstr "Sí"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:357
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:371
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:432
+msgid "No"
+msgstr "No"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:365
+#: shipquik/src/WooCommerce/ShipQuik_ShippingRate.php:84
+msgid "Free shipping"
+msgstr "Envío Gratis"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:366
+msgid "If you want to offer free shipping to your customers"
+msgstr "Si quieres ofrecer envío gratuito a tus clientes"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:378
+msgid "Shipping Table Rates"
+msgstr "Tarifas por rango de importes"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:386
+msgid "Free shipping from"
+msgstr "Envío gratuito desde"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:387
+#, fuzzy
+#| msgid "Equal or higher than this amount"
+msgid "Cart subtotal equal to or greater than this amount"
+msgstr "Igual o superior a esta cantidad"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:395
+msgid "Store fee type"
+msgstr "Tipo de comisión de la tienda"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:400
+msgid "By price"
+msgstr "Por precio"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:401
+msgid "By percent"
+msgstr "Por porcentaje"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:417
+msgid "Store comments on shipping"
+msgstr "Comentarios de la tienda sobre el envío"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:426
+#, fuzzy
+msgid "Print products on labels"
+msgstr "Imprimir productos en etiquetas"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:438
+#, fuzzy
+msgid "Select the change of the status of the order after being processed"
+msgstr "Seleccione el cambio del estado del pedido después de ser procesado"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:448
+#, fuzzy
+msgid ""
+"Some suppliers require a valid DNI/CIF/NIE for international shipments. "
+"Enter here the name of the field that you have configured in your "
+"WooCommerce, if you leave it blank it will be requested in the payment, when "
+"necessary."
+msgstr ""
+"Algunos proveedores requieren un DNI/CIF/NIE válido para envíos "
+"internacionales. Introduce aquí el nombre del campo que has configurado en "
+"tu WooCommerce, si lo dejas en blanco se te solicitará en el pago, cuando "
+"sea necesario."
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:458
+msgid "Sender Address"
+msgstr "Dirección del remitente"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:463
+msgid "Company"
+msgstr "Empresa"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:472
+msgid "Address"
+msgstr "Dirección"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:481
+msgid "City"
+msgstr "Ciudad"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:490
+msgid "Postal Code"
+msgstr "Código Postal"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:499
+msgid "Country Code"
+msgstr "Código de país"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:508
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:526
+msgid "CIF/DNI/NIE"
+msgstr "CIF/DNI/NIE"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:537
+#, fuzzy
+msgid "Default packages"
+msgstr "Paquetes predeterminados"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:673
+msgid "Settings Saved"
+msgstr "Configuración Guardada"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:686
+#, fuzzy
+msgid "IMPORTANTE:"
+msgstr "IMPORTANTE:"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:708
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:728
+#, fuzzy
+msgid ""
+"There was a problem with the activation, please check that the private key "
+"is correct."
+msgstr ""
+"Hubo un problema con la activación, verifique que la clave privada sea "
+"correcta."
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:770
+msgid "Cloning of Settings is forbidden."
+msgstr "La clonación de la configuración está prohibida."
+
+#: shipquik/src/WooCommerce/ShipQuik_Settings.php:780
+msgid "Unserializing instances of Settings is forbidden."
+msgstr "Está prohibido desserializar instancias de Configuración."
+
+#: shipquik/src/WooCommerce/ShipQuik_ShippingRate.php:73
+#: shipquik/src/WooCommerce/ShipQuik_ShippingRate.php:74
+#, fuzzy
+msgid " (Gastos de importación incluidos)"
+msgstr " (Gastos de importación incluidos)"
+
+#: shipquik/src/WooCommerce/Suppliers/ShipQuik_Shipping_Method.php:35
+msgid "Envío con Ship-Quik"
+msgstr "Envío con Ship-Quik"
+
+#: shipquik/src/WooCommerce/Suppliers/ShipQuik_Shipping_Method.php:36
+msgid "Ahorra con Ship-Quik"
+msgstr "Ahorra con Ship-Quik"
+
+#: templist/ShipQuik_Shipping_Method_shipquik_price_price.php:35
+#: templist/ShipQuik_Shipping_Method_shipquik_price_price.php:36
+#: templist/ShipQuik_Shipping_Method_shipquik_price_price.php:37
+msgid "por Ship-Quik más barato"
+msgstr "por Ship-Quik más barato"
+
+#: templist/ShipQuik_Shipping_Method_shipquik_speed_speed.php:35
+#: templist/ShipQuik_Shipping_Method_shipquik_speed_speed.php:36
+#: templist/ShipQuik_Shipping_Method_shipquik_speed_speed.php:37
+#, fuzzy
+#| msgid "por Ship-Quik más barato"
+msgid "por Ship-Quik envío rápido"
+msgstr "por Ship-Quik más barato"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ship-quik.com/"
+msgstr "https://ship-quik.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "Conector for Ship Quik."
+msgstr "Conector para Ship Quik."
+
+#~ msgid "There was an error requesting the label, we will contact you."
+#~ msgstr ""
+#~ "Se ha producido un error al solicitar la etiqueta, nos pondremos en "
+#~ "contacto contigo."
+
+#~ msgid "Reprint label"
+#~ msgstr "Reimprimir etiqueta"
+
+#~ msgid "Label pending"
+#~ msgstr "Etiqueta pendiente"
+
+#~ msgid "Send order"
+#~ msgstr "Enviar el pedido"
+
+#~ msgid "Configuración Obligatoria"
+#~ msgstr "Configuración Obligatoria"
+
+#~ msgid "Pickup date interval (Days)"
+#~ msgstr "Intervalo de fecha de recogida (Días)"
+
+#~ msgid "Period of days for the pickup"
+#~ msgstr "Período de días para la recogida"
+
+#~ msgid "Weight (kgs)"
+#~ msgstr "Peso (kgs)"
+
+#~ msgid "Default values for products without parcel details."
+#~ msgstr "Valores predeterminados para productos sin detalles de paquete."
+
+#~ msgid "Height (cms)"
+#~ msgstr "Altura (cms)"
+
+#~ msgid "Configuración General"
+#~ msgstr "Configuración General"
+
+#~ msgid "Debug mode"
+#~ msgstr "Modo de Depuración"
+
+#~ msgid ""
+#~ "This is for debugging purposes (All information will be recorded at "
+#~ "WooCommerce Logs)"
+#~ msgstr ""
+#~ "Esto es para fines de depuración (toda la información se registrará en "
+#~ "WooCommerce Logs)"
+
+#~ msgid "Parcel Defaults"
+#~ msgstr "Valores predeterminados de paquetes"
+
+#~ msgid "Welcome to the Ship-quik setup wizard."
+#~ msgstr "Bienvenido al asistente de configuración de Ship-quik."
+
+#~ msgid ""
+#~ "Fill in the required fields to continue with the personalization of your "
+#~ "shipments."
+#~ msgstr ""
+#~ "Rellena los campos obligatorios para continuar con la personalización de "
+#~ "tus envíos."
+
+#~ msgid "with Ship-Quik"
+#~ msgstr "Ship-Quik"
